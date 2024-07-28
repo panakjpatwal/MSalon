@@ -1,0 +1,140 @@
+/* facial-treatment.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+#facial-treatment {
+    background-image: url('facial-treatment.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+#facial-treatment h1 {
+    font-size: 48px;
+}
+
+#facial-treatment-types {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+#facial-treatment-types ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#facial-treatment-types li {
+    margin-bottom: 20px;
+}
+
+#facial-treatment-types h3 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+#facial-treatment-types p {
+    font-size: 18px;
+    color: #666;
+}
+
+#benefits {
+    background-color: #333;
+    color: #fff;
+    padding: 2em;
+}
+
+#benefits ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#benefits li {
+    margin-bottom: 20px;
+}
+
+#benefits h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+#book-appointment {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+#book-appointment form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#book-appointment label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#book-appointment input[type="text"], #book-appointment input[type="email"], #book-appointment input[type="date"], #book-appointment input[type="time"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#book-appointment input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#book-appointment input[type="submit"]:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
